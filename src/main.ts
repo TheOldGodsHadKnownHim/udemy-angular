@@ -8,4 +8,5 @@ if (environment.production) {
   enableProdMode();
 }
 
+//kickstart the application from here
 platformBrowserDynamic().bootstrapModule(AppModule);
