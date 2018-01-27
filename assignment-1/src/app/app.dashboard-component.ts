@@ -9,8 +9,7 @@ export class DashboardComponent {
   loadState = 'loading';
   userLoadState = '';
 
- changeLoadState (){
-   console.log("changeLoadState called")
+ changeLoadState () {
    this.loadState = 'finished';
  }
 }
