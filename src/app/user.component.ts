@@ -4,7 +4,7 @@ import {Component } from '@angular/core';
   selector: 'app-user',
   // inline templates are valid to use so long as they are small. If we want to do a multiline
   // template, then we need to make use of backticks. Remember, if you are using inline, then
-  // you need to use template rather than templateUrl
+  // you need to use template keyword rather than templateUrl
   template: `
   <!-- (input) = 'onUserInput()' allows us to listen to the input event from the user
   and do something with that input in our onUserInput() method
